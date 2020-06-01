@@ -2,11 +2,14 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "jest": "^26.0.1",
     "lerna": "^3.20.2",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "pretty": "prettier packages"
+    "pretty": "prettier packages",
+    "test": "jest"
   }
 }
