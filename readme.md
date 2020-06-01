@@ -9,3 +9,4 @@ This uses a very stock configuration, and out of the box has no packages created
 - Fork or clone this repository.
 - `cd` where you cloned it
 - `yarn bootstrap`
+- `yarn test` -- should pass -- not a lot going on yet!
