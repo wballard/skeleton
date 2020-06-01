@@ -3,5 +3,7 @@
  */
 
 describe("Integration tests", () => {
-  it("Can run tests...", async () => {});
+  it("Can run tests...", async () => {
+    expect(true).toBeTruthy();
+  });
 });

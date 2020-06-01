@@ -17,8 +17,8 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "pretty": "prettier packages",
-    "lint": "eslint packages",
+    "pretty": "prettier packages tests",
+    "lint": "eslint --ext .ts,.tsx .",
     "test": "jest"
   }
 }
