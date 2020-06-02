@@ -1,5 +1,6 @@
 {
-  "name": "root",
+  "name": "root",  
+  "version": "0.0.0",
   "private": true,
   "workspaces": [
      "packages/*"
@@ -19,7 +20,7 @@
     "typescript": "^3.9.3"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap --use-workspaces",
     "pretty": "prettier --write packages tests",
     "lint": "eslint --ext .ts,.tsx .",
     "test": "jest"
